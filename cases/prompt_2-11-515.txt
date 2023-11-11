@@ -4,6 +4,7 @@ It can be assumed that the original vector always contains an even amount of ele
 Using a nice standard-library tool for this (if you can).
 Example:
 ```c++
-vector<int> origin {1, 2, 3, 4, 5, 6, 7, 8};
+vector<int> origin = {1, 2, 3, 4, 5, 6, 7, 8};
 vector<pair<int, int>> goal = origin_to_goal(origin); //{ {1, 2}, {3, 4}, {5, 6}, {7, 8} };
 ```
+Return the implementation of origin_to_goal, without any other information.

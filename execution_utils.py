@@ -416,7 +416,7 @@ IMPORT_HELPER = {
         "crypto/md5",
     ],
     "cpp": [
-        "using namespace std;",
+        "//using namespace std;",
         "#include<stdlib.h>",
         "#include<algorithm>",
         "#include<cmath>",
@@ -430,7 +430,7 @@ IMPORT_HELPER = {
         "#include<stack>",
         "#include<list>",
         "#include<deque>",
-        "#include<boost/any.hpp>",
+        "//#include<boost/any.hpp>",
         "#include<string>",
         "#include<climits>",
         "#include<cstring>",

@@ -41,11 +41,11 @@ cases:
 # - cases/eval_2-10-508.yaml
 # - cases/eval_2-10-509.yaml
 - cases/eval_2-11-510.yaml
-#[TODO]- cases/eval_2-11-511.yaml
+- cases/eval_2-11-511.yaml
 # - cases/eval_2-11-512.yaml
 # - cases/eval_2-11-513.yaml
-#[TODO]- cases/eval_2-11-514.yaml
-#[TODO]- cases/eval_2-11-515.yaml
+- cases/eval_2-11-514.yaml
+- cases/eval_2-11-515.yaml
 # - cases/eval_2-11-516.yaml
 - cases/eval_2-11-517.yaml
 - cases/eval_2-11-518.yaml

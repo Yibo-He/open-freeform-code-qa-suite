@@ -1,6 +1,5 @@
 Please write a function ```fun``` in C++ that can take multiple parameters of the same type (struct Foo in the following example), passed in as a template. The number of arguments is known in compile time.
 There are two constraints: 1. no heap memory allocations. 2. no va_args.
-In function ```fun```, print the values of each parameter separated with ' ', ended with '\n'.
 The C++ version is C++14 or new versions.
 ```c++
 struct Foo
@@ -21,3 +20,4 @@ int main()
     return 0;
 }
 ```
+Replace the function ```fun``` with your implementation.

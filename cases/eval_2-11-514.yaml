@@ -11,27 +11,7 @@ grading:
   min_score: 0.0
 
   unit_test:
-
-    # lang: ...
-    # [optional] overwrite the root lang field and decide how to execute the code
-
+    lang: c++
     tests:
-        - ...
-        # - content: str
-        #   # source code in string
-        #   path: str
-        #   # source code relative path, either content or path needs specify
-        #   # the source code is appended to model's generated code
-        #   #
-        #   prefix: str
-        #   prefix_path: str
-        #   # [optional] prefix code prepended to model's generated code before unit test execution
-        #   #
-        #   cleanup_path: str
-        #   # [optional] cleanup code path after execution, used when some files need to be cleaned up
-        #   #
-        #   weight: 1.0
-        #   # [optional] set the weight
-        #   timetout: float
-        #   # [optional] set customized timeout in seconds, default python,js,java 10s, cpp 60s, go 20s, rust 300s
-  
+      - path: test_2-11-514.cpp
+        weight: 1.0
